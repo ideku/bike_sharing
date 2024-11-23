@@ -5,9 +5,9 @@ import streamlit as st
 
 sns.set(style='dark')
 
-day_df = pd.read_csv("/home/ideku/Downloads/proyek_analisis_data/dashboard_bike_sharing/day_clean.csv")
-hour_df = pd.read_csv("/home/ideku/Downloads/proyek_analisis_data/dashboard_bike_sharing/hour_clean.csv")
-monthly_bs_df = pd.read_csv("/home/ideku/Downloads/proyek_analisis_data/dashboard_bike_sharing/monthly_bs_df_clean.csv")
+day_df = pd.read_csv("dashboard/day_clean.csv")
+hour_df = pd.read_csv("dashboard/hour_clean.csv")
+monthly_bs_df = pd.read_csv("dashboard/monthly_bs_df_clean.csv")
 
 st.set_page_config(
     page_title="Bike Sharing Project",
