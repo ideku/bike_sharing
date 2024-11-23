@@ -1,1 +1,3 @@
-https://bike-sharing-abrar.streamlit.app/
+URL Github : https://github.com/ideku/bike_sharing/
+
+URL Streamlit : https://bike-sharing-abrar.streamlit.app/
